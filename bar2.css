@@ -1,0 +1,19 @@
+#nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#nav > p{
+    padding: 5px;
+}
+
+@media screen and (max-width:350px) {
+    #nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
